@@ -1,0 +1,41 @@
+.contact-area{
+    padding:80px 0;
+    background: url(../img/contact.jpg);
+    .left-sec{
+        h2{
+            
+        }
+        .location-box{
+            width: 100%;
+            height: 420px;
+            background:rgb(197, 197, 197);
+            margin-top: 58px;
+            border:4px solid #ffff;
+            iframe {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    .right-sec{
+        .form-area{            
+            margin-top: 58px;
+            .input-feild{
+                width: 100%;
+                font-size: 15px;
+                padding:19px 23px;
+                margin-bottom: 20px;
+                outline:medium;
+                border:none;
+            }
+            .txt-area{
+                padding:22px 25px;
+                width: 100%;
+                height: 115px;
+                outline:medium;
+                border:none;
+                margin-bottom: 35px;
+            }
+        }
+    }
+}

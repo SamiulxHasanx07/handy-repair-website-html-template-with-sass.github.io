@@ -1,0 +1,50 @@
+/*
+    Theme Name: AUHANDY PSD TO HTML
+    Author: Samiul Hasan
+    Support: samdevx07@gmail.com
+    Description: Creative Web Solution
+    Version: 1.0
+*/
+
+// Google Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+// Remove default margin, paddig and box-siizng
+@import "./include/default";
+@import "./include/variables";
+
+
+// Header 
+@import "./header";
+// Slider Section 
+@import "./slider";
+
+// Experiance Section 
+@import "./exp";
+
+
+// Chose Us section  
+@import "./chose-us";
+
+
+// Services section  
+@import "./services";
+
+// Portfolio section  
+@import "./portfolio";
+
+// Call To Action section  
+@import "./CTA";
+
+// Contact section  
+@import "./contact";
+
+// Brand section  
+@import "./brand";
+
+//Preloader
+@import "./preloader";
+
+// Footer 
+@import "./footer";

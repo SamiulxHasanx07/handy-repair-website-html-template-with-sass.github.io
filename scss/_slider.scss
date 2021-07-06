@@ -1,0 +1,33 @@
+.slider-area{
+    background: linear-gradient(to bottom, rgba(26, 26, 26, 0.856), rgba(26, 26, 26, 0.856)), url(../img/headerbg.jpg);
+    background-size: cover;
+    position: center center;
+
+    .img-wrapper{
+        padding-top: 150px;
+        img{
+            width: 100%;
+        }
+    }
+    .text-area{
+        h2, p{
+            color:#fff;
+            
+        }
+        h2{
+            font-size: 37px;
+            font-weight:900;
+        }
+        p{
+            font-size: 18px;
+            margin-top:16px;
+        }
+
+        .sl-btn{
+            margin-top:44px;
+            .btn:last-child{
+                margin-left: 15px;
+            }
+        }
+    }
+}

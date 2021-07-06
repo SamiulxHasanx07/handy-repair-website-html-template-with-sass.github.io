@@ -1,0 +1,4 @@
+[2020-11-7 14:35:27] layer "+1 23 568 8967": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-11-7 14:35:27] layer "+1 23 567 8596": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-11-7 14:35:27] layer "+1 23 567 8596": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-11-7 14:35:27] layer "info@example.com": Unsupported extension: com

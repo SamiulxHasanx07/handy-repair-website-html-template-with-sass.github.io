@@ -1,0 +1,19 @@
+.CTA{
+    background: url(../img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .txt-area{
+        margin-top:150px;
+        h2{
+            font-size: 36px;
+            margin-bottom: 42px;
+            color:$white-color;
+        }
+    }
+    .img-wrapper{
+        padding-top:40px;
+        img{
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+footer{
+    padding-top:62px;
+    background:$footer-color;
+    h2{
+        color:$white-color;
+    }
+    p{
+        color:$ft-font-color;
+    }
+    .ft-title{
+        margin-bottom: 36px;
+    }
+    .contact-sec{
+        .inner-sec{
+            .txt-area{
+                h2{
+                    font-size: 18px;
+                }
+            }
+            .item{
+                margin-bottom:15px;
+                .icon{
+                    background:#252525;
+                    color:$btn-color;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    -ms-border-radius: 50px;
+                    -o-border-radius: 50px;
+                    position: relative;
+                    margin-right: 16px;
+                    i{
+                        font-size: 20px;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        text-align: center;
+                        top:0;
+                        bottom: 0;
+                        height: 21px;
+                        margin:auto;
+                    }
+                }
+            }
+        }
+    }
+    .services-sec{
+        ul{
+            li{
+                padding-bottom:27px;
+                a{
+                    color:$ft-font-color;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color:$btn-color;
+                }
+                a::before{
+                    content: '\f105';
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    font-size: 15px;
+                    margin-right: 10px;
+                    color:$btn-color;
+                }
+                a:hover::before{
+                    color:$btn-color;
+                }
+            }
+            li:last-child{                
+                padding-bottom:0px;
+            }
+        }
+    }
+
+    .promoCode{
+        .img-wrapper{
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+    .footer-creadit-sec{
+        margin-top: 62px;
+        padding:25px 0;
+        text-align: center;
+        background:#0e0d0d;
+        span{
+            color:$btn-color;
+        }
+    }
+}
